@@ -1,0 +1,20 @@
+.employee-details table { 
+    border-collapse:collapse;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    width: 90%;
+}
+.employee-details table tbody tr{
+    text-align: center;
+}
+.employee-details table,.employee-details td,.employee-details th{
+    border: 1px solid gray;
+    padding: 1rem;
+}
+
+.employee-details table thead {
+    background-color: rgb(54, 53, 53);
+    color: white;
+}
