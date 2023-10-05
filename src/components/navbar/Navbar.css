@@ -12,6 +12,10 @@ body{
 .nav-logo {
     display: flex;
 }
+.nav-logo img{
+    width:10px;
+    height: 20px;
+}
 .nav-logo ul{
     width: 50%;
     display: flex;

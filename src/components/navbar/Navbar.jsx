@@ -1,5 +1,6 @@
 import {  NavLink } from "react-router-dom";
 import "./Navbar.css";
+import logo from '../images/l1.png'
 
 function Navbar() {
   // const navigate = useNavigate();
@@ -7,7 +8,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="nav-logo">
-        <img src="" alt="Logo" />
+        <img src={logo} alt="Logo" />
         <ul>
           <li>
             <NavLink className="cart-nav" to="/">
@@ -31,11 +32,11 @@ function Navbar() {
             </NavLink>
           </li>
           <li>Contact Us</li>
-          <li>
+          {/* <li>
             <button className="logout" type="submit">
               Log out
             </button>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>

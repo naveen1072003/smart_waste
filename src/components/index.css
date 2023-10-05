@@ -7,6 +7,9 @@
     position: absolute;
     z-index: 100;
     font-size: 36px;
+    text-align: justify;
+    font-weight: 900;
+    color: rgb(69, 115, 164);
     margin-bottom: 35%;
 
 }

@@ -11,7 +11,7 @@ function Home() {
       <Navbar />
       <div className="container">
         <div className="head-wrapper">
-          <h2>Smart Garbage Monitoring</h2>
+          <h2>Enhancing Solid Waste Disposal, and improve sanitization system in Metro cities</h2>
           <div className="back-img">
             <img src={background} alt="" />
           </div>

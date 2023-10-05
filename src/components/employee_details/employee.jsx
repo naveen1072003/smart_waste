@@ -8,16 +8,15 @@ function Employee() {
       <Navbar />
       <div className="employee-details">
         <table>
-            <thead>
-
-          <th>S.No</th>
-          <th>Employee Name</th>
-          <th>Employee Id</th>
-          <th>Work Location </th>
-          <th>Address</th>
-          <th>Contact No</th>
-          <th>Edit / Delete</th>
-            </thead>
+          <thead>
+            <th>S.No</th>
+            <th>Employee Name</th>
+            <th>Employee Id</th>
+            <th>Work Location </th>
+            <th>Address</th>
+            <th>Contact No</th>
+            <th>Edit / Delete</th>
+          </thead>
           <tbody>
             <tr>
               <td>{i++}</td>
@@ -26,7 +25,26 @@ function Employee() {
               <td>Mylleripalayam</td>
               <td>Anna street,Mill Gate</td>
               <td>9925629802</td>
-              <td className="action-buttons"></td>
+              <td className="action-buttons">
+                <button className="edit">
+                  <i
+                    className="material-icons"
+                    data-toggle="tooltip"
+                    title="Edit"
+                  >
+                    &#xE254;
+                  </i>
+                </button>
+                <button className="delete" type="submit">
+                  <i
+                    className="material-icons"
+                    data-toggle="tooltip"
+                    title="Delete"
+                  >
+                    &#xE872;
+                  </i>
+                </button>
+              </td>
             </tr>
             <tr>
               <td>{i++}</td>
@@ -35,7 +53,26 @@ function Employee() {
               <td>Sundrapuram</td>
               <td>MGR nagar,Sundrapuram</td>
               <td>9925629802</td>
-              <td className="action-buttons"></td>
+              <td className="action-buttons">
+                <button className="edit">
+                  <i
+                    className="material-icons"
+                    data-toggle="tooltip"
+                    title="Edit"
+                  >
+                    &#xE254;
+                  </i>
+                </button>
+                <button className="delete" type="submit">
+                  <i
+                    className="material-icons"
+                    data-toggle="tooltip"
+                    title="Delete"
+                  >
+                    &#xE872;
+                  </i>
+                </button>
+              </td>
             </tr>
             <tr>
               <td>{i++}</td>
@@ -44,7 +81,26 @@ function Employee() {
               <td>Othakkalmandapam</td>
               <td>Periyar street,Othakkalmandapam</td>
               <td>9925629802</td>
-              <td className="action-buttons"></td>
+              <td className="action-buttons">
+                <button className="edit">
+                  <i
+                    className="material-icons"
+                    data-toggle="tooltip"
+                    title="Edit"
+                  >
+                    &#xE254;
+                  </i>
+                </button>
+                <button className="delete" type="submit">
+                  <i
+                    className="material-icons"
+                    data-toggle="tooltip"
+                    title="Delete"
+                  >
+                    &#xE872;
+                  </i>
+                </button>
+              </td>
             </tr>
             <tr>
               <td>{i++}</td>
@@ -53,7 +109,26 @@ function Employee() {
               <td>Mylleripalayam</td>
               <td>Anna street,Mill Gate</td>
               <td>9925629802</td>
-              <td className="action-buttons"></td>
+              <td className="action-buttons">
+                <button className="edit">
+                  <i
+                    className="material-icons"
+                    data-toggle="tooltip"
+                    title="Edit"
+                  >
+                    &#xE254;
+                  </i>
+                </button>
+                <button className="delete" type="submit">
+                  <i
+                    className="material-icons"
+                    data-toggle="tooltip"
+                    title="Delete"
+                  >
+                    &#xE872;
+                  </i>
+                </button>
+              </td>
             </tr>
           </tbody>
         </table>

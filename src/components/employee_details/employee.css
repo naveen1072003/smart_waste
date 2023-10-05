@@ -13,7 +13,10 @@
     border: 1px solid gray;
     padding: 1rem;
 }
-
+.action-buttons button{
+    border: none;
+    background-color: white;
+}
 .employee-details table thead {
     background-color: rgb(54, 53, 53);
     color: white;
